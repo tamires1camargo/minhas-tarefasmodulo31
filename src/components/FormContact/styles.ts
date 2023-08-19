@@ -25,7 +25,7 @@ export const Input = styled.input`
   border: none;
   border-bottom: 1px solid #a9a9a9;
   font-size: 18px;
-  color: #fff;
+  color: #34495e;
 `
 export const SaveContactButton = styled(Button)`
   background-color: #05c46b;
