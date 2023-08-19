@@ -9,9 +9,10 @@ export const CardContainer = styled.div`
   -webkit-box-shadow: 1px 9px 33px -11px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 1px 9px 33px -11px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 9px 33px -11px rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
 
   div {
-    margin: 16px 0;
+    margin: 16px 22;
   }
 `
 export const TitleCard = styled.h3`
@@ -27,8 +28,8 @@ export const Email = styled.input`
   border: none;
   border-radius: 8px;
 
-  color: #fff;
-  background-color: transparent;
+  color: #000;
+  background-color: #dff9fb;
 `
 
 export const RemoveButton = styled(Button)`

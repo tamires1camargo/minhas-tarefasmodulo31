@@ -2,9 +2,9 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 export const Circle = styled(Link)`
-  height: 64px;
-  width: 64px;
-  background-color: #079992;
+  height: 122px;
+  width: 122px;
+  background-color: #e67e22;
   color: #fff;
   position: fixed;
   bottom: 40px;
@@ -15,6 +15,7 @@ export const Circle = styled(Link)`
   display: flex;
   align-items: center;
 
-  font-size: 40px;
+  font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
 `

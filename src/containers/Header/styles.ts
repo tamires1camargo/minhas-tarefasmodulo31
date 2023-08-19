@@ -6,7 +6,6 @@ export const HeaderContainer = styled.header`
   top: 0;
   max-width: 100vw;
   width: 100%;
-  width: 100%;
   background-color: #b71540;
   display: flex;
   align-items: center;
@@ -26,13 +25,14 @@ export const HeaderContainer = styled.header`
 
 export const Title = styled.h1`
   font-weight: bold;
+  color: #fff;
 `
 
 export const SearchInput = styled.input`
-  background-color: #1e3799;
+  background-color: #ecf0f1;
   width: 300px;
   padding: 5px 8px;
   border-radius: 10px;
   border: none;
-  color: #fff;
+  color: #7f8c8d;
 `
