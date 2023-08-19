@@ -11,8 +11,8 @@ const ContactList = () => {
     let filterContacts = itens
     if (term !== undefined) {
       filterContacts = itens.filter(
-        (item: { nome: string }) =>
-          item.nome.toLowerCase().search(term.toLowerCase()) >= 0
+        (item: { name: string }) =>
+          item.name.toLowerCase().search(term.toLowerCase()) >= 0
       )
 
       return filterContacts
@@ -27,7 +27,7 @@ const ContactList = () => {
     <div>
       {contacts.map((c) => (
         <CardContainer key={c.name}>
-          <Card id={c.id} name={c.name} email={c.email} tel={c.telefone} />
+          <Card id={c.id} name={c.name} email={c.email} tel={c.tel} />
         </CardContainer>
       ))}
     </div>
